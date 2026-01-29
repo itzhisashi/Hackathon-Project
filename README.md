@@ -1,6 +1,6 @@
 
 # Code League 1.0 – Hackathon Project 🚀 
-<img align="right" width="200" src="img/image.jpg">
+## <img align="right" width="200" src="img/image.jpg">
 
 This repository contains our team’s work developed during **Code League 1.0**, an inter-college hackathon organized by the **Department of MCA, GHRCE Nagpur**.
 
