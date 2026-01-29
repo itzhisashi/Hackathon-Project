@@ -35,12 +35,13 @@ The project focuses on building a practical, efficient, and user-friendly soluti
 
 ## 📂 Project Structure
 
--(main)
--   |---------> index.html (interface)
--   |---------> css
--   |            |--------> style.css
--   |---------> js 
--   |            |--------> main.js
--   |---------> netlify/functions
--                |--------> function.js
-        
+<pre>
+(main)
+   |---------> index.html (interface)
+   |---------> css
+   |            |--------> style.css
+   |---------> js 
+   |            |--------> main.js
+   |---------> netlify/functions
+                |--------> function.js
+</pre>
