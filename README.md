@@ -9,7 +9,7 @@ The project focuses on building a practical, efficient, and user-friendly soluti
 
 ## 🧠 About the Project
 
-- Designed and developed during a 48-hour hackathon
+- Designed and developed during a 20+ hour hackathon
 - Problem statement was provided during the event
 - Emphasis on innovation, scalability, and real-world usability
 - Built with a clean structure and readable code
@@ -18,9 +18,9 @@ The project focuses on building a practical, efficient, and user-friendly soluti
 ## 🛠️ Technologies Used
 
 - Frontend: HTML, CSS, JavaScript  
-- Backend: Python / Node.js (as applicable)  
+- Backend: Python / Node.js / Next.js(as applicable)
 - Database: MySQL / MongoDB (if used)  
-- Tools: Git, GitHub, VS Code  
+- Tools: Git, GitHub, VS Code, Google Script
 
 *(Technologies may vary based on final implementation)*
 
@@ -34,3 +34,13 @@ The project focuses on building a practical, efficient, and user-friendly soluti
 
 
 ## 📂 Project Structure
+
+(main)
+   |---------> index.html (interface)
+   |---------> css
+   |            |--------> style.css
+   |---------> js 
+   |            |--------> main.js
+   |---------> netlify/functions
+                |--------> function.js
+        
