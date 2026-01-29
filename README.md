@@ -43,5 +43,5 @@ The project focuses on building a practical, efficient, and user-friendly soluti
    |---------> js 
    |            |--------> main.js
    |---------> netlify/functions
-                |--------> function.js
+                |--------> saveData.js
 </pre>
