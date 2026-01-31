@@ -37,10 +37,11 @@ The project focuses on building a practical, efficient, and user-friendly soluti
 <pre>
 (main)
    |---------> index.html (interface)
-   |---------> css
-   |            |--------> style.css
-   |---------> js 
-   |            |--------> main.js
+   |---------> assets  
+   |            |---------> css
+   |            |           |--------> style.css
+   |            |---------> js 
+   |                        |--------> main.js
    |---------> netlify/functions
                 |--------> saveData.js
 </pre>
