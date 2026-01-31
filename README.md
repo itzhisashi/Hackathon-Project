@@ -44,4 +44,15 @@ The project focuses on building a practical, efficient, and user-friendly soluti
    |                        |--------> main.js
    |---------> netlify/functions
                 |--------> saveData.js
+   •
+   ├── README.md
+   ├── .github/FUNDING.yml
+   ├── assets/
+   │   ├── css/
+   │   │   ├── style.css
+   │   ├──
+   │   │   └── Footer.js
+   │   └── App.js
+   └── public/
+    └── index.html
 </pre>
