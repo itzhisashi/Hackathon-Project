@@ -35,24 +35,15 @@ The project focuses on building a practical, efficient, and user-friendly soluti
 ## 📂 Project Structure
 
 <pre>
-(main)
-   |---------> index.html (interface)
-   |---------> assets  
-   |            |---------> css
-   |            |           |--------> style.css
-   |            |---------> js 
-   |                        |--------> main.js
-   |---------> netlify/functions
-                |--------> saveData.js
-   •
+(master)
    ├── README.md
    ├── .github/FUNDING.yml
    ├── assets/
    │   ├── css/
-   │   │   ├── style.css
-   │   ├──
-   │   │   └── Footer.js
-   │   └── App.js
-   └── public/
-    └── index.html
+   │   │   └── style.css
+   │   ├── js/
+   │   │   └── main.js
+   ├── netlify/functions/
+   │   └── savaData.js
+   └── index.html
 </pre>
