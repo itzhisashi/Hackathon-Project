@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+</head>
+<body>
+
+<h2>Patient Queue</h2>
+<ul id="queue"></ul>
+
+<button onclick="loadQueue()">Refresh Queue</button>
+
+<script>
+function loadQueue() {
+  fetch("/queue")
+    .then(res => res.json())
+    .then(data => {
+      let list = document.getElementById("queue");
+      list.innerHTML = "";
+      data.forEach(p => {
+        list.innerHTML += `<li>
+          Token ${p.token} - ${p.name} (${p.priority})
+        </li>`;
+      });
+    });
+}
+</script>
+
+</body>
+</html>
